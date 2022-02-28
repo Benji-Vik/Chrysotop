@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+svg {
+  width: 300px;
+}
+
+.fort{
+	margin: 25px 75px 1px 1px;
+}
+
