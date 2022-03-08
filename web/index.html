@@ -539,47 +539,59 @@
                 <div class="col-md-12">
                     <div class="contact_form">
                         <div id="message"></div>
-                        <form id="contactForm" method="post" action="https://formsubmit.co/a7bd4cad6ff062cac0fe0a88e4a9a0dc">
-				
-							<input type="hidden" name="_template" value="box">
-					
-				
-				<div class="row">
-					<div class="col-md-6">
-						<div class="form-group">
-							<input class="form-control" name="name" id="name" type="text" placeholder="Full Name" required="required" data-validation-required-message="Please enter your full name.">
-							
-						</div>
-						<!--<div class="form-group">
-							<input class="form-control" id="name" type="text" placeholder="Second Name" required="required" data-validation-required-message="Please enter your Second name.">
-							<p class="help-block text-danger"></p>
-						</div>-->
-						<div class="form-group">
-							<input class="form-control" name="email" id="email" type="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email address.">
-							<p class="help-block text-danger"></p>
-						</div>
-
-					</div>
-					<div class="col-md-6">
-						<div class="form-group">
-							<textarea class="form-control" name="message" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-							
-						</div>
-					</div>
-					<div class="clearfix"></div>
-					<div class="col-lg-12 text-center">
-						<!--<div id="success"></div>-->
-						<button  class="sim-btn hvr-bounce-to-top" type="submit">Send Message</button>
-						
+                        <form action="https://formsubmit.co/a7bd4cad6ff062cac0fe0a88e4a9a0dc" method="post" id="main_contact_form">
+				    
+				    <form id="contact-form" method="post" action="https://formsubmit.co/a7bd4cad6ff062cac0fe0a88e4a9a0dc">
 						<div>
-							<input type="hidden" name="_next" value="https://chrysotop.com/thankyou/index.html"></div>
-						</div>
-					
-					
-					</div> 
-
-			</div>
-			</form>
+							<input type="hidden" name="_template" value="box">
+						
+						<div class="form-group row">
+							
+                                <!-- Message Input Area Start -->
+                                <div class="contact_input_area">
+                                    <div id="success_fail_info"></div>
+                                    <div class="row">
+                                        <!-- Single Input Area Start -->
+                                        <div class="col-12 col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="name" id="name" placeholder="Full Name" required>
+                                            </div>
+                                        </div>
+                                        <!-- Single Input Area Start -->
+                                      <!--  <div class="col-12 col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="name" id="name" placeholder="Second Name" required>
+                                            </div>
+                                        </div>-->
+                                        <!-- Single Input Area Start -->
+                                        <div class="col-12 col-md-6">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                                            </div>
+                                        </div>
+                                        <!-- Single Input Area Start -->
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
+                                            </div>
+                                        </div>
+                                        <!-- Single Input Area Start -->
+                                      <!-- <div class="col-12">
+                                            <div class="form-group">
+                                                <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
+                                            </div>
+                                        </div> -->
+                                        <!-- Single Input Area Start -->
+                                       <div class="col-12 text-center">
+                                            <button type="submit" class="btn sim-btn hvr-bounce-to-top">Send Message</button>
+					       
+					</div>
+					 <div><input type="hidden" name="_next" value="https://chrysotop.com/thankyou/index.html"></div>
+					 </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
 						
 						
                     </div>
